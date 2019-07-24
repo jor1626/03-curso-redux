@@ -1,0 +1,4 @@
+<header class="header" [formGroup]="todoForm">
+  <h1>todos</h1>
+  <input class="new-todo" (keyup.enter)="agregarTodo()" name="nombre" formControlName="nombre" placeholder="Que necesita ser hecho?" autofocus>
+</header>
